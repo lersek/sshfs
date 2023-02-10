@@ -133,10 +133,10 @@ Options
             and `--gidfile`.
 
 -o uidfile=FILE
-   file containing ``username:uid`` mappings for `-o idmap=file`
+   file containing ``local_username:remote_uid`` mappings for `-o idmap=file`
 
 -o gidfile=FILE
-   file containing ``groupname:gid`` mappings for `-o idmap=file`
+   file containing ``local_groupname:remote_gid`` mappings for `-o idmap=file`
 
 -o nomap=TYPE
    with idmap=file, how to handle missing mappings:
